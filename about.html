@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us · Dilge.net</title>
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="masthead">
+    <div class="container masthead__inner">
+      <a class="brand" href="/index.html" aria-label="Dilge.net home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span>dilge.net</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="/index.html">Home</a>
+        <a href="/about.html" aria-current="page">About Us</a>
+        <a href="/services.html">Services</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="band">
+      <div class="container">
+        <h1 class="display-01">About us</h1>
+        <p class="subtitle">
+          Dilge.net is a proving ground for building modern web experiences with clean structure,
+          systematic styling, and a focus on iteration. Today it’s simple; the goal is to grow it
+          into something polished and fun.
+        </p>
+      </div>
+    </section>
+
+    <section class="band band--layer">
+      <div class="container">
+        <h2 style="font-size: var(--heading-02-size); line-height: 1.25; font-weight: 400;">What we’re building</h2>
+        <div class="grid" style="margin-top: var(--space-32);">
+          <div class="tile" role="group" aria-label="Placeholder: principles">
+            <div>
+              <div class="tile__title">Principles</div>
+              <div class="tile__body">
+                A strict 8px grid, crisp rectangles, and a single blue accent.
+                Depth comes from layered surfaces—not shadows.
+              </div>
+            </div>
+            <div class="tile__body"><span style="font-family: var(--font-mono);">--cds-*</span> tokens ready</div>
+          </div>
+
+          <div class="tile" role="group" aria-label="Placeholder: practice loop">
+            <div>
+              <div class="tile__title">Practice loop</div>
+              <div class="tile__body">
+                Small changes, frequent deploys, clear diff history.
+                Ship improvements safely via branches and pull requests.
+              </div>
+            </div>
+            <div class="tile__body">Build → commit → deploy</div>
+          </div>
+
+          <div class="tile" role="group" aria-label="Placeholder: roadmap">
+            <div>
+              <div class="tile__title">Roadmap</div>
+              <div class="tile__body">
+                Add content pages, a blog-like section, and eventually product tiles and checkout.
+              </div>
+            </div>
+            <div class="tile__body">Next: a component library</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year"></span> dilge.net</div>
+      <div class="footer__meta">
+        About page placeholder copy. Replace these sections with your story and real milestones.
+      </div>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>

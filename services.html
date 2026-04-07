@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services · Dilge.net</title>
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="masthead">
+    <div class="container masthead__inner">
+      <a class="brand" href="/index.html" aria-label="Dilge.net home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span>dilge.net</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About Us</a>
+        <a href="/services.html" aria-current="page">Services</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="band">
+      <div class="container">
+        <h1 class="display-01">Services</h1>
+        <p class="subtitle">
+          Placeholder offerings to help preview layout, density, and typography.
+          Over time, you can replace these with real packages or a product catalog.
+        </p>
+        <div class="cta-row">
+          <a class="button button--primary" href="/about.html">Learn more →</a>
+          <a class="button button--ghost" href="/index.html">Back to home</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band--layer">
+      <div class="container">
+        <h2 style="font-size: var(--heading-02-size); line-height: 1.25; font-weight: 400;">What we can build</h2>
+        <p class="subtitle">
+          Think of these as “tiles” you can later turn into real pages, products, or checkout flows.
+        </p>
+        <div class="grid" style="margin-top: var(--space-32);">
+          <a class="tile" href="#" aria-label="Placeholder service: landing pages">
+            <div>
+              <div class="tile__title">Landing pages</div>
+              <div class="tile__body">
+                Hero sections, content bands, and strong calls-to-action—built on a strict system.
+              </div>
+            </div>
+            <div class="tile__body">Details (coming soon)</div>
+          </a>
+
+          <a class="tile" href="#" aria-label="Placeholder service: design system">
+            <div>
+              <div class="tile__title">Design system</div>
+              <div class="tile__body">
+                Reusable buttons, tiles, and layout rules using token-like variables for consistency.
+              </div>
+            </div>
+            <div class="tile__body">Components (coming soon)</div>
+          </a>
+
+          <a class="tile" href="#" aria-label="Placeholder service: shop foundation">
+            <div>
+              <div class="tile__title">Shop foundation</div>
+              <div class="tile__body">
+                Product grids, detail pages, and a path to checkout—starting simple, scaling later.
+              </div>
+            </div>
+            <div class="tile__body">Roadmap (coming soon)</div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year"></span> dilge.net</div>
+      <div class="footer__meta">
+        Services page placeholder copy. Replace with real offerings, pricing, and contact options.
+      </div>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
